@@ -1,12 +1,12 @@
 :root {
 --accent-color: #ff0070;
 --accent-color-title: #db00ff; 
---accent-color-header:#ff0070;
---accent-color-header-rec:#ff0070;
---color-switch:rgb(255, 0, 112, 0.4);
+--accent-color-header: #ff0070;
+--accent-color-header-rec: #ff0070;
+--color-switch: rgb(255, 0, 112, 0.4);
 --text-color: #000028;
 --text-color-content: #f1b2ce;
---text-color-subtitle:#ff0070;
---background-color:#000028;
---background-image-dark: url(../images/cover-image-dark.png);
+--text-color-subtitle: #ff0070;
+--background-color: #000028;
+--background-image: url(../images/cover-image-dark.png);
 }

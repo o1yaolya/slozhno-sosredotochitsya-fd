@@ -3,7 +3,7 @@
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   font-family:'IBM Plex mono', sans-serif;
-  background-image: var(--background-image-dark);
+  background-image: var(--background-image);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -104,7 +104,7 @@
 }
 
 @media (width>=1024px) {
-  .header__theme-menu{
+  .header__theme-menu {
     align-content: space-between;
   }
 }
@@ -114,7 +114,7 @@
   flex-direction: column;
   align-items: flex-end;
   gap: 10px;
-  padding-top: 6px;
+  padding-top: 8px;
 }
 
 @media (width>=1024px) {
@@ -134,7 +134,7 @@
 @media (width>=768px) {
   .header__title {
   margin-inline-start: -20px;
-  padding-top: 20px;
+  padding-top: 15px;
   }
 }
 
@@ -232,7 +232,7 @@
  }
 
  .content__title {
-  padding-bottom: 20px;
+  padding-bottom: 19px;
   color:var(--text-color-subtitle);
   font-weight: 800;
   font-size: 18px;
@@ -253,7 +253,7 @@
 }
 
 @media (width>=1024px) {
-.cards_concentration-list{
+.cards_concentration-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
@@ -271,6 +271,9 @@
  }
 
  @media (width>=768px) {
+  .content-section {
+    padding-bottom: 80px;
+  }
  .content-section-hard {
   display: grid;
   grid-template-columns: 236px 472px;
@@ -339,6 +342,9 @@
  }
 
  .content-image {
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
  padding-top: 10px;
  }
 
@@ -381,7 +387,7 @@
  }
 
  @media (width>=768px) {
-  .image{
+  .image {
     height: 100%;
     object-fit: cover;
     object-position: center;

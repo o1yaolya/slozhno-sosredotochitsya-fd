@@ -18,7 +18,7 @@
 --text-color-content:  #353430;
 --text-color-subtitle: #353430;
 --background-color:#fff1f7;
---background-image-dark: url(../images/cover-image-light.png);
+--background-image: url(../images/cover-image-light.png);
 }
 
 .theme-light .page {
@@ -27,15 +27,15 @@
 
 @media (prefers-color-scheme: light) {
 :root {
-  --accent-color: #ff8dcb;
+--accent-color: #ff8dcb;
 --accent-color-title: #ffc2e6; 
 --accent-color-header: #353430;
 --accent-color-header-rec: transparent;
---color-switch:rgb(50, 49, 45, 0.4);
+--color-switch: rgb(50, 49, 45, 0.4);
 --text-color: #353430;
 --text-color-content:  #353430;
 --text-color-subtitle: #353430;
---background-color:#fff1f7;
+--background-color: #fff1f7;
 --background-image-dark: url(../images/cover-image-light.png);
 }
 }
