@@ -1,6 +1,6 @@
 :root.theme-light {
 --accent-color: #ff8dcb;
---accent-color-title: #ffc2e6; 
+--accent-color-title: #ffc2e6;
 --accent-color-header: #353430;
 --accent-color-header-rec: transparent;
 --color-switch:rgb(50, 49, 45, 0.4);
@@ -18,7 +18,7 @@
 @media (prefers-color-scheme: light) {
 :root {
 --accent-color: #ff8dcb;
---accent-color-title: #ffc2e6; 
+--accent-color-title: #ffc2e6;
 --accent-color-header: #353430;
 --accent-color-header-rec: transparent;
 --color-switch: rgb(50, 49, 45, 0.4);
