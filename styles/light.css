@@ -11,10 +11,6 @@
 --background-image: url(../images/cover-image-light.png);
 }
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-}
-
 @media (prefers-color-scheme: light) {
 :root {
 --accent-color: #ff8dcb;

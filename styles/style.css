@@ -303,6 +303,12 @@
   font-size: 18px;
 }
 
+.content__list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
 .content__card-list-item:not(:last-child) {
   padding-bottom: 20px;
 }
